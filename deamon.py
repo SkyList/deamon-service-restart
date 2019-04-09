@@ -1,6 +1,6 @@
 import os
 
-cmd = "uname -a"
+cmd = "netstat -putan | grep nginx | wc -l"
 
 returnedValue = os.system(cmd)
 print('return: ', returnedValue)
