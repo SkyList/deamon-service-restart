@@ -18,5 +18,5 @@ Starting service
 
 ``` shell
 $systemctl start mydeamon
-`
+```
 
